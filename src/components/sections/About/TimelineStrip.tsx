@@ -2,48 +2,46 @@
 
 import { motion, useScroll, useTransform, useMotionValueEvent } from 'framer-motion';
 import { useRef, useState, memo } from 'react';
-import { Code2, Briefcase, GraduationCap, Rocket, Award, LucideIcon } from 'lucide-react';
+import { GraduationCap, BookOpen, LucideIcon } from 'lucide-react';
 
 // Static data moved outside component
 interface Milestone {
   year: string;
   title: string;
+  institution: string;
+  timeline: string;
   description: string;
   icon: LucideIcon;
   isCurrent?: boolean;
+  extra?: string;
 }
 
 const milestones: Milestone[] = [
   {
-    year: '2022',
-    title: 'The Curiosity Phase',
-    description: 'Discovered the world of web development. Started with HTML, CSS, and JavaScript fundamentals. Built my first static websites and fell in love with creating things for the web.',
-    icon: Code2,
+    year: '2021',
+    title: 'Secondary Education (CBSE)',
+    institution: 'City International School, Pune',
+    timeline: '2020 – 2021',
+    description: 'Completed secondary education under the CBSE board with a strong academic foundation.',
+    icon: BookOpen,
   },
   {
-    year: '2024',
-    title: 'Engineering Foundation',
-    description: 'Started B.Tech in Information Technology. Diving deep into data structures, algorithms, and software engineering principles. Building full-stack applications with React, Node.js, and databases.',
+    year: '2023',
+    title: 'Higher Secondary Education (HSC)',
+    institution: 'VIIT Junior College, Pune',
+    timeline: 'Passed Out in 2023',
+    description: 'Completed higher secondary education in the science stream.',
+    icon: BookOpen,
+  },
+  {
+    year: '2023 – 2027',
+    title: 'Bachelor of Technology – Information Technology',
+    institution: 'AISSMS IOIT, Pune',
+    timeline: '2023 – 2027',
+    description: 'Currently pursuing B.Tech in Information Technology.',
     icon: GraduationCap,
-  },
-  {
-    year: '2025',
-    title: 'Product Builder',
-    description: 'Launched ThinkVerse - a SaaS platform for structured idea management. Learned product development, user experience design, and the importance of shipping real products to real users.',
-    icon: Briefcase,
-  },
-  {
-    year: '2026',
-    title: 'AI Development',
-    description: 'Currently building Devory, an AI-driven platform helping students showcase and manage their projects. Exploring machine learning, natural language processing, and intelligent automation.',
-    icon: Award,
     isCurrent: true,
-  },
-  {
-    year: '2027',
-    title: 'Scaling Vision',
-    description: 'Aiming to master advanced AI/ML systems and production-grade engineering. Goal: Build technology that impacts millions and contribute to open-source communities.',
-    icon: Rocket,
+    extra: 'Current CGPA: 8.5',
   },
 ];
 
@@ -110,6 +108,15 @@ const TimelineItem = memo(function TimelineItem({
               <p className="text-sm text-white/50 leading-[1.7] group-hover:text-white/70 transition-colors duration-300">
                 {milestone.description}
               </p>
+
+              {/* Institution & Timeline */}
+              <div className="mt-2 space-y-0.5">
+                <p className="text-xs text-white/35">{milestone.institution}</p>
+                <p className="text-xs text-white/35">{milestone.timeline}</p>
+                {milestone.extra && (
+                  <p className="text-xs text-[#FF8C00]/70 mt-1">{milestone.extra}</p>
+                )}
+              </div>
             </div>
           )}
         </div>
@@ -163,6 +170,15 @@ const TimelineItem = memo(function TimelineItem({
               <p className="text-sm text-white/50 leading-[1.7] group-hover:text-white/70 transition-colors duration-300">
                 {milestone.description}
               </p>
+
+              {/* Institution & Timeline */}
+              <div className="mt-2 space-y-0.5">
+                <p className="text-xs text-white/35">{milestone.institution}</p>
+                <p className="text-xs text-white/35">{milestone.timeline}</p>
+                {milestone.extra && (
+                  <p className="text-xs text-[#FF8C00]/70 mt-1">{milestone.extra}</p>
+                )}
+              </div>
             </div>
           )}
         </div>
@@ -210,6 +226,15 @@ const TimelineItem = memo(function TimelineItem({
           <p className="text-xs text-white/50 leading-[1.6]">
             {milestone.description}
           </p>
+
+          {/* Institution & Timeline */}
+          <div className="mt-1.5 space-y-0.5">
+            <p className="text-[11px] text-white/30">{milestone.institution}</p>
+            <p className="text-[11px] text-white/30">{milestone.timeline}</p>
+            {milestone.extra && (
+              <p className="text-[11px] text-[#FF8C00]/60 mt-1">{milestone.extra}</p>
+            )}
+          </div>
         </div>
       </div>
     </div>
@@ -245,13 +270,13 @@ export default function TimelineStrip() {
         className="text-center mb-10 sm:mb-12 px-4"
       >
         <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.25em] text-white/25 mb-3">
-          The Story So Far
+          Academic Background
         </p>
         <h3
           className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white uppercase tracking-[-0.02em]"
           style={{ fontFamily: 'var(--font-jakarta)' }}
         >
-          My{' '}
+          Education &amp;{' '}
           <span
             style={{
               background: 'linear-gradient(90deg, #FF8C00, #FF1493)',
@@ -260,7 +285,7 @@ export default function TimelineStrip() {
               backgroundClip: 'text',
             }}
           >
-            Journey
+            Growth
           </span>
         </h3>
       </motion.div>
