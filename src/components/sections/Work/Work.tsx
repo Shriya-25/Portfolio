@@ -1,69 +1,11 @@
 'use client';
 
-import { useState, useCallback, memo } from 'react';
+import { useState, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import { projects } from './work.data';
 import ProjectCard from './ProjectCard';
 
 const INITIAL_PROJECTS_COUNT = 3;
-
-// Memoized stats component
-const Stats = memo(function Stats() {
-  return (
-    <div className="flex items-center justify-center gap-8 sm:gap-12 mt-8 sm:mt-10">
-      <div className="text-center">
-        <span
-          className="block text-2xl sm:text-3xl font-bold"
-          style={{
-            background: 'linear-gradient(135deg, #FF8C00, #FF1493)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            backgroundClip: 'text',
-          }}
-        >
-          {projects.length}
-        </span>
-        <span className="text-[10px] sm:text-xs text-white/40 uppercase tracking-wider">
-          Projects
-        </span>
-      </div>
-      <div className="w-px h-8 bg-white/10" />
-      <div className="text-center">
-        <span
-          className="block text-2xl sm:text-3xl font-bold"
-          style={{
-            background: 'linear-gradient(135deg, #FF8C00, #FF1493)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            backgroundClip: 'text',
-          }}
-        >
-          15+
-        </span>
-        <span className="text-[10px] sm:text-xs text-white/40 uppercase tracking-wider">
-          Technologies
-        </span>
-      </div>
-      <div className="w-px h-8 bg-white/10" />
-      <div className="text-center">
-        <span
-          className="block text-2xl sm:text-3xl font-bold"
-          style={{
-            background: 'linear-gradient(135deg, #FF8C00, #FF1493)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            backgroundClip: 'text',
-          }}
-        >
-          4
-        </span>
-        <span className="text-[10px] sm:text-xs text-white/40 uppercase tracking-wider">
-          Industries
-        </span>
-      </div>
-    </div>
-  );
-});
 
 export default function Work() {
   const [showAll, setShowAll] = useState(false);
@@ -113,7 +55,7 @@ export default function Work() {
       </div>
 
       {/* Header Section */}
-      <div className="container mx-auto px-4 sm:px-6 mb-12 sm:mb-16 md:mb-20">
+      <div className="container mx-auto px-4 sm:px-6 mb-10 sm:mb-12 md:mb-16">
         <div className="text-center max-w-4xl mx-auto">
           {/* Label */}
           <motion.p
@@ -177,16 +119,6 @@ export default function Work() {
             A curated collection of full-stack applications showcasing modern web technologies and
             innovative solutions.
           </motion.p>
-
-          {/* Stats */}
-          <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            <Stats />
-          </motion.div>
         </div>
       </div>
 
