@@ -172,7 +172,7 @@ export default function RootLayout({
     "@type": "Person",
     "name": "Shriya Sandesh Kulkarni",
     "url": siteUrl,
-    "image": `${siteUrl}/images/profile/profile.jpeg`,
+    "image": `${siteUrl}/images/profile/profile.jpg`,
     "jobTitle": "Full Stack Developer",
     "description": "Shriya Sandesh Kulkarni is a Full Stack Developer and B.Tech IT student at AISSMS IOIT, Pune, building web and mobile applications with React, Next.js, TypeScript, React Native, and Flutter.",
     "email": "shriya25.main@gmail.com",

@@ -68,7 +68,7 @@ const ProfileCard = memo(function ProfileCard() {
             {/* Profile picture */}
             <div className="absolute inset-[2px] xs:inset-[3px] rounded-full overflow-hidden">
               <Image
-                src="/images/profile/profile.jpeg"
+                src="/images/profile/profile.jpg"
                 alt={profileAlt}
                 width={256}
                 height={256}

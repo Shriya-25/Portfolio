@@ -46,7 +46,7 @@ export const PERSONAL_INFO = {
     country: 'India',
     countryCode: 'IN',
   },
-  image: '/images/profile/profile.jpeg',
+  image: '/images/profile/profile.jpg',
   bio: 'Shriya Sandesh Kulkarni is a Full Stack Developer and B.Tech IT student at AISSMS Institute of Information Technology, Pune. She specializes in building scalable web and mobile applications using React, Next.js, TypeScript, React Native, and Flutter, with a strong foundation in databases and cloud technologies.',
   shortBio: 'Full Stack Developer specializing in React, Next.js, TypeScript, and mobile development.',
   expertise: [
