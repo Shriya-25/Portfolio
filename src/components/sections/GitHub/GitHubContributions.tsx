@@ -281,6 +281,23 @@ export default function GitHubContributions() {
               <span>Scroll to explore</span>
             </div>
 
+            {/* Stats Row */}
+            <div className="mt-4 xs:mt-5 sm:mt-6 grid grid-cols-3 gap-2 xs:gap-3 sm:gap-4">
+              {[
+                { label: 'Total Contributions', value: stats.totalContributions.toLocaleString() },
+                { label: 'Current Streak', value: `${stats.currentStreak}d` },
+                { label: 'Longest Streak', value: `${stats.longestStreak}d` },
+              ].map((stat) => (
+                <div
+                  key={stat.label}
+                  className="flex flex-col items-center justify-center p-2 xs:p-3 rounded-lg xs:rounded-xl bg-white/[0.03] border border-white/[0.06]"
+                >
+                  <span className="text-base xs:text-lg sm:text-xl font-bold text-white">{stat.value}</span>
+                  <span className="text-[9px] xs:text-[10px] sm:text-xs text-white/40 mt-0.5 text-center leading-tight">{stat.label}</span>
+                </div>
+              ))}
+            </div>
+
             {/* Footer with GitHub Profile Button */}
             <div className="mt-4 xs:mt-5 sm:mt-6 pt-4 xs:pt-5 sm:pt-6 border-t border-white/10 flex justify-center">
               <a

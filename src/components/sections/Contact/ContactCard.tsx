@@ -1,6 +1,6 @@
 'use client';
 
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, X, Clock, ArrowUpRight } from 'lucide-react';
+import { Mail, MapPin, Github, Linkedin, Twitter, X, Clock, ArrowUpRight } from 'lucide-react';
 import ContactForm from './ContactForm';
 import { PERSONAL_INFO, SOCIAL_LINKS } from '@/lib/constants';
 
@@ -52,10 +52,10 @@ export default function ContactCard({ onClose }: ContactCardProps) {
           {/* Header */}
           <div className="mb-3 sm:mb-4 md:mb-5">
             <h3 className="text-base xs:text-lg sm:text-xl md:text-2xl font-bold text-white mb-1 sm:mb-1.5 tracking-[-0.02em]">
-              Let's Connect
+              Get In Touch
             </h3>
             <p className="text-[11px] xs:text-[12px] sm:text-[13px] text-white/50 leading-relaxed">
-              I'm always open to discussing new projects and opportunities.
+              Open to internships, collaborations, and opportunities to learn and grow.
             </p>
           </div>
 
@@ -73,23 +73,6 @@ export default function ContactCard({ onClose }: ContactCardProps) {
                 <p className="text-[8px] xs:text-[9px] sm:text-[10px] uppercase tracking-wider text-white/35">Email</p>
                 <p className="text-[11px] xs:text-[12px] sm:text-[13px] text-white/80 truncate group-hover:text-white transition-colors">
                   {PERSONAL_INFO.email}
-                </p>
-              </div>
-              <ArrowUpRight className="w-3 h-3 xs:w-3.5 xs:h-3.5 text-white/20 group-hover:text-white/40 transition-colors flex-shrink-0" />
-            </a>
-
-            {/* Phone */}
-            <a
-              href={`tel:${PERSONAL_INFO.phone}`}
-              className="flex items-center gap-2 xs:gap-2.5 sm:gap-3 p-1.5 xs:p-2 sm:p-2.5 rounded-lg xs:rounded-xl bg-white/[0.04] border border-white/[0.06] hover:bg-white/[0.08] hover:border-white/[0.1] transition-all group"
-            >
-              <div className="w-6 h-6 xs:w-7 xs:h-7 sm:w-8 sm:h-8 rounded-md xs:rounded-lg bg-[#30D158]/10 border border-[#30D158]/20 flex items-center justify-center flex-shrink-0">
-                <Phone className="w-3 h-3 xs:w-[13px] xs:h-[13px] sm:w-[14px] sm:h-[14px] text-[#30D158]" />
-              </div>
-              <div className="flex-1 min-w-0">
-                <p className="text-[8px] xs:text-[9px] sm:text-[10px] uppercase tracking-wider text-white/35">Phone</p>
-                <p className="text-[11px] xs:text-[12px] sm:text-[13px] text-white/80 group-hover:text-white transition-colors">
-                  {PERSONAL_INFO.phone}
                 </p>
               </div>
               <ArrowUpRight className="w-3 h-3 xs:w-3.5 xs:h-3.5 text-white/20 group-hover:text-white/40 transition-colors flex-shrink-0" />

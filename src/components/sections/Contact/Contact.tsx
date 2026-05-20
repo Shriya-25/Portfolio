@@ -146,8 +146,8 @@ export default function Contact() {
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold tracking-[-0.02em] leading-tight text-white mb-4 sm:mb-6 uppercase"
           style={{ fontFamily: 'var(--font-jakarta), "Plus Jakarta Sans", sans-serif', fontWeight: 800 }}
         >
-          Let's Build Something{' '}
-          <span className="text-rainbow-gradient">Extraordinary</span>
+          Let's Connect &amp;{' '}
+          <span className="text-rainbow-gradient">Create</span>
         </motion.h2>
 
         <motion.p
@@ -157,7 +157,7 @@ export default function Contact() {
           transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94], delay: 0.1 }}
           className="text-base sm:text-lg md:text-xl text-muted max-w-2xl mx-auto mb-8 sm:mb-12 px-2"
         >
-          Whether you're launching a startup or scaling an enterprise, I'm here to turn your vision into reality
+          Passionate about learning, building projects, and creating meaningful digital experiences through technology and creativity.
         </motion.p>
 
         {/* Get in Touch Button */}
@@ -247,10 +247,10 @@ export default function Contact() {
           className="mt-8 sm:mt-12 max-w-2xl mx-auto space-y-2 sm:space-y-3 px-2"
         >
           <p className="text-base sm:text-lg md:text-xl font-medium text-white">
-            Available for full-time roles and selective freelance projects.
+            Open to internships, collaborations, and opportunities to learn and grow.
           </p>
           <p className="text-xs sm:text-sm md:text-base text-white/50 leading-relaxed">
-            I focus on shipping clean, scalable web solutions that support real users and growing products.
+            Interested in web development, creative problem-solving, and continuously improving through real-world projects and experiences.
           </p>
         </motion.div>
       </div>
