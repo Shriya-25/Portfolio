@@ -24,10 +24,10 @@ export const projects: Project[] = [
       "Fund tracking and real-time event management"
     ],
     techStack: ["React.js", "Tailwind CSS", "Firebase Authentication", "Firestore", "Razorpay"],
-    image: "/images/projects/project1.png",
-    hoverImage: "/images/projects/project1-hover.png",
-    liveUrl: "https://festify-demo.com",
-    githubUrl: "https://github.com/shriyakulkarni/festify",
+    image: "/images/projects/festify.png",
+    hoverImage: "/images/projects/festify-hover.png",
+    liveUrl: "https://festify-six.vercel.app",
+    githubUrl: "https://github.com/Shriya-25/Festify",
     color: "99, 102, 241"
   },
   {
@@ -40,11 +40,11 @@ export const projects: Project[] = [
       "Streak calendar and productivity analytics",
       "Google Sign-In, guest mode, and onboarding flow"
     ],
-    techStack: ["React Native", "TypeScript", "Firebase", "React Native API", "Metro Bundler", "Gradle"],
+    techStack: ["React Native", "TypeScript", "Firebase", "Metro Bundler", "Gradle"],
     image: "/images/projects/project2.png",
     hoverImage: "/images/projects/project2-hover.png",
-    liveUrl: "https://focusflow-demo.com",
-    githubUrl: "https://github.com/shriyakulkarni/focusflow",
+    liveUrl: "",
+    githubUrl: "https://github.com/Shriya-25/FocusFlow",
     color: "16, 185, 129"
   },
   {
@@ -60,8 +60,8 @@ export const projects: Project[] = [
     techStack: ["Flask", "SQLAlchemy", "SQLite", "HTML", "CSS", "Bootstrap"],
     image: "/images/projects/project3.png",
     hoverImage: "/images/projects/project3-hover.png",
-    liveUrl: "https://expense-tracker-demo.com",
-    githubUrl: "https://github.com/shriyakulkarni/expense-tracker",
+    liveUrl: "",
+    githubUrl: "https://github.com/Shriya-25/Expense-Tracker",
     color: "37, 99, 235"
   },
   {
@@ -77,8 +77,8 @@ export const projects: Project[] = [
     techStack: ["React.js", "Next.js", "MongoDB", "Chart.js", "Gemini API"],
     image: "/images/projects/project4.png",
     hoverImage: "/images/projects/project4-hover.png",
-    liveUrl: "https://stationery-ai-demo.com",
-    githubUrl: "https://github.com/shriyakulkarni/ai-stationery-inventory",
+    liveUrl: "",
+    githubUrl: "https://github.com/Shriya-25",
     color: "220, 53, 69"
   },
 ];
