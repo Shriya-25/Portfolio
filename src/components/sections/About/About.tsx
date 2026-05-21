@@ -6,7 +6,6 @@ import AboutHeader from './AboutHeader';
 import ProfileCard from './ProfileCard';
 import TimelineStrip from './TimelineStrip';
 import MarqueeBanner from './MarqueeBanner';
-import ExpertiseShowcase from './ExpertiseShowcase';
 import InfoCards from './InfoCards';
 import GlowCard, { GlowCardGroup } from '@/components/ui/GlowCard';
 import { PERSONAL_INFO } from '@/lib/constants';
@@ -166,13 +165,13 @@ export default function About() {
                         className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl leading-[1.5] xs:leading-[1.6] sm:leading-[1.7] font-normal text-white/90"
                         style={{ fontFamily: 'var(--font-playfair), "Playfair Display", Georgia, serif' }}
                       >
-                        Shriya Sandesh Kulkarni crafts high-performance web and mobile applications with clean architecture and exceptional user experiences.
+                        I enjoy building responsive web and mobile applications with clean design, practical functionality, and smooth user experiences.
                       </p>
                       <p
                         className="text-xs xs:text-sm sm:text-base md:text-lg leading-[1.5] xs:leading-[1.6] sm:leading-[1.7] font-normal text-white/50"
                         style={{ fontFamily: 'var(--font-playfair), "Playfair Display", Georgia, serif' }}
                       >
-                        Specializing in full-stack and mobile development — blending React, Next.js, React Native, and Flutter with intuitive design and real-world impact.
+                        Exploring full-stack and mobile development using technologies like React, Next.js, React Native, Flutter, and modern development tools.
                       </p>
                     </div>
                   </motion.div>
@@ -184,9 +183,6 @@ export default function About() {
             </div>
           </GlowCardGroup>
       </Container>
-
-      {/* Expertise Showcase — Split Screen Interactive */}
-      <ExpertiseShowcase />
 
       {/* Marquee Banner — above timeline */}
       <MarqueeBanner />
