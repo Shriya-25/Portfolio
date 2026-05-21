@@ -25,9 +25,9 @@ const AboutHeader = memo(function AboutHeader() {
           fontWeight: 800,
         }}
       >
-        Turning Ideas Into{' '}
+        Building{' '}
         <span className="text-rainbow-gradient">
-          Reality
+          Meaningful Experiences
         </span>
       </h2>
       <p
@@ -37,7 +37,7 @@ const AboutHeader = memo(function AboutHeader() {
           color: 'rgba(255,255,255,0.7)',
         }}
       >
-        Developer by day, problem solver by nature. Let&apos;s build something amazing together.
+        Passionate about building projects, exploring new technologies, and creating user-focused digital solutions.
       </p>
     </motion.div>
   );
