@@ -82,14 +82,14 @@ export default function Skills() {
           transition={{ duration: 0.6 }}
           className="mb-10 sm:mb-12 md:mb-16 text-center"
         >
-          <p className="text-primary-gradient text-xs sm:text-sm font-semibold tracking-wider uppercase mb-2 sm:mb-3">My Arsenal</p>
+          <p className="text-primary-gradient text-xs sm:text-sm font-semibold tracking-wider uppercase mb-2 sm:mb-3">Tech Stack</p>
           <h2
             className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold mb-2 sm:mb-3 md:mb-4 text-white px-2 uppercase tracking-[-0.02em]"
             style={{ fontFamily: 'var(--font-jakarta), "Plus Jakarta Sans", sans-serif', fontWeight: 800 }}
           >
-            Technologies <span className="text-rainbow-gradient">I Master</span>
+            Technologies <span className="text-rainbow-gradient">I Work With</span>
           </h2>
-          <p className="text-muted text-sm sm:text-base md:text-lg max-w-2xl mx-auto px-4">Languages, frameworks and tools from my resume — the stack I build with</p>
+          <p className="text-muted text-sm sm:text-base md:text-lg max-w-2xl mx-auto px-4">Languages, frameworks, databases, and tools I use to build projects and explore modern development.</p>
         </motion.div>
 
         {/* Marquee Rows */}

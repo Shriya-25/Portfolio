@@ -116,8 +116,7 @@ export default function Work() {
               fontFamily: 'var(--font-playfair), "Playfair Display", Georgia, serif',
             }}
           >
-            A curated collection of full-stack applications showcasing modern web technologies and
-            innovative solutions.
+            Projects built with modern technologies, focused on creativity, functionality, and real-world solutions.
           </motion.p>
         </div>
       </div>
