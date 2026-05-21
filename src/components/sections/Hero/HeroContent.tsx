@@ -212,9 +212,9 @@ export default function HeroContent() {
                 backgroundClip: 'text',
               }}
             >
-              Full Stack
+              modern web and mobile
             </em>{' '}
-            experiences that power{' '}
+            experiences through creativity, technology, and{' '}
             <em
               className="not-italic font-medium"
               style={{
@@ -224,7 +224,7 @@ export default function HeroContent() {
                 backgroundClip: 'text',
               }}
             >
-              Web &amp; Mobile Innovators
+              real-world projects.
             </em>
           </motion.p>
 
