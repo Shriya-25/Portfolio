@@ -44,13 +44,13 @@ export default function Contact() {
 
       {/* Hidden SEO Content */}
       <div className="sr-only">
-        <h2>Contact Rameshwar Bhagwat - Full Stack Developer</h2>
+        <h2>Contact Shriya Sandesh Kulkarni - Full Stack Developer</h2>
         
         <h3>Get in Touch</h3>
         <p>
-          Rameshwar Bhagwat is available for full-time roles, freelance projects, and consulting opportunities. 
-          With expertise in React, Next.js, TypeScript, Node.js, and modern web development, 
-          he helps startups and enterprises build scalable, high-performance web applications.
+          Shriya Sandesh Kulkarni is open to internships, collaborations, and learning opportunities. 
+          With skills in React, Next.js, TypeScript, React Native, Flutter, and modern web development, 
+          she builds responsive and functional web and mobile applications.
         </p>
 
         <h3>Contact Information</h3>
@@ -58,72 +58,24 @@ export default function Contact() {
           <p>Name: {PERSONAL_INFO.name}</p>
           <p>Title: {PERSONAL_INFO.jobTitle}</p>
           <p>Email: <a href={`mailto:${PERSONAL_INFO.email}`}>{PERSONAL_INFO.email}</a></p>
-          <p>Phone: <a href={`tel:${PERSONAL_INFO.phone}`}>{PERSONAL_INFO.phone}</a></p>
           <p>Location: {PERSONAL_INFO.location.city}, {PERSONAL_INFO.location.state}, {PERSONAL_INFO.location.country}</p>
           <p>Website: <a href={SITE_URL}>{SITE_URL}</a></p>
         </address>
 
-        <h3>Services Offered</h3>
+        <h3>Skills</h3>
         <ul>
-          <li>Full Stack Web Development - End-to-end application development</li>
-          <li>React & Next.js Development - Modern frontend applications</li>
-          <li>TypeScript Development - Type-safe JavaScript solutions</li>
-          <li>Node.js Backend Development - Scalable server-side applications</li>
-          <li>API Development - RESTful and GraphQL APIs</li>
-          <li>Database Design & Optimization - MongoDB, PostgreSQL, MySQL</li>
-          <li>Cloud Deployment - AWS, Google Cloud, Vercel</li>
-          <li>Performance Optimization - Core Web Vitals and SEO</li>
-          <li>Technical Consulting - Architecture and best practices</li>
-          <li>Code Review & Mentoring - Team support and guidance</li>
+          <li>Full Stack Web Development</li>
+          <li>React &amp; Next.js Development</li>
+          <li>TypeScript &amp; JavaScript</li>
+          <li>React Native &amp; Flutter</li>
+          <li>Node.js Backend Development</li>
+          <li>Database Design - MongoDB, PostgreSQL, Firebase</li>
+          <li>UI/UX Implementation</li>
+          <li>API Design &amp; Development</li>
         </ul>
 
         <h3>Availability</h3>
-        <p>
-          Currently available for:
-        </p>
-        <ul>
-          <li>Full-time employment opportunities</li>
-          <li>Selective freelance projects</li>
-          <li>Technical consulting engagements</li>
-          <li>Contract-to-hire positions</li>
-          <li>Remote work worldwide</li>
-        </ul>
-
-        <h3>Project Types</h3>
-        <ul>
-          <li>Startup MVP Development - Launch your product quickly</li>
-          <li>Enterprise Web Applications - Scalable business solutions</li>
-          <li>E-commerce Platforms - Online stores and marketplaces</li>
-          <li>SaaS Applications - Software as a Service products</li>
-          <li>Progressive Web Apps - Mobile-first web applications</li>
-          <li>API Integration - Third-party service integration</li>
-          <li>Legacy System Modernization - Upgrade outdated systems</li>
-          <li>Performance Optimization - Speed up existing applications</li>
-        </ul>
-
-        <h3>Why Work With Me</h3>
-        <ul>
-          <li>5+ years of professional web development experience</li>
-          <li>50+ successfully delivered projects</li>
-          <li>98% client satisfaction rate</li>
-          <li>Expertise in modern JavaScript ecosystem</li>
-          <li>Strong focus on code quality and best practices</li>
-          <li>Excellent communication and collaboration skills</li>
-          <li>Agile methodology and iterative development</li>
-          <li>Commitment to deadlines and project success</li>
-        </ul>
-
-        <h3>Response Time</h3>
-        <p>
-          I typically respond to inquiries within 24 hours during business days. 
-          For urgent matters, please mention "URGENT" in your subject line.
-        </p>
-
-        <h3>Time Zone</h3>
-        <p>
-          Based in India (IST - UTC+5:30). Available for meetings across all time zones 
-          with flexible scheduling.
-        </p>
+        <p>Open to internships, project collaborations, and learning opportunities. Available for remote work.</p>
       </div>
 
       {/* 3D Earth Sphere — behind content, same pattern as Hero NeuralSphere */}

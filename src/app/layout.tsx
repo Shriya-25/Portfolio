@@ -7,7 +7,6 @@ import Navbar from "@/components/layout/Navbar/Navbar";
 import Footer from "@/components/layout/Footer/Footer";
 import BreadcrumbSchema from "@/components/seo/BreadcrumbSchema";
 import { IntroAnimationProvider } from "@/context/IntroAnimationContext";
-import CommandPalette from "@/components/ui/CommandPalette";
 import CustomCursor from "@/components/ui/CustomCursor";
 import SmoothScrollWrapper from "@/components/layout/SmoothScrollWrapper";
 import SuppressThreeWarnings from "@/components/utils/SuppressThreeWarnings";
@@ -294,7 +293,6 @@ export default function RootLayout({
               {children}
             </main>
             <Footer />
-            <CommandPalette />
           </SmoothScrollWrapper>
         </IntroAnimationProvider>
       </body>

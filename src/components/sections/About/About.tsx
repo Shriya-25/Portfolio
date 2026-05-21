@@ -51,9 +51,8 @@ export default function About() {
       {/* Occupation Schema */}
       <div itemProp="hasOccupation" itemScope itemType="https://schema.org/Occupation" className="hidden">
         <meta itemProp="name" content="Full Stack Developer" />
-        <meta itemProp="occupationLocation" content="Yeola, Maharashtra, India" />
-        <meta itemProp="skills" content="React, Next.js, TypeScript, Node.js, JavaScript, MongoDB, Express.js" />
-        <meta itemProp="experienceRequirements" content="5+ years" />
+        <meta itemProp="occupationLocation" content="Pune, Maharashtra, India" />
+        <meta itemProp="skills" content="React, Next.js, TypeScript, Node.js, JavaScript, MongoDB, React Native, Flutter" />
       </div>
       
       {/* Educational Background */}
@@ -96,41 +95,24 @@ export default function About() {
               Shriya Sandesh Kulkarni is a Full Stack Developer and B.Tech IT student at AISSMS Institute of Information Technology, Pune,
               specializing in React, Next.js, TypeScript, React Native, Flutter, and modern web and mobile technologies.
             </p>
-            <h3>Rameshwar Bhagwat - Core Skills and Expertise</h3>
+            <h3>Core Skills and Expertise</h3>
             <ul>
               <li>Full Stack Development with MERN Stack (MongoDB, Express.js, React, Node.js)</li>
               <li>Frontend Development: React, Next.js, TypeScript, JavaScript, HTML5, CSS3</li>
               <li>Backend Development: Node.js, Express.js, RESTful API Design</li>
-              <li>Database: MongoDB, PostgreSQL, MySQL, Database Optimization</li>
-              <li>Cloud Services: AWS, Azure, Google Cloud Platform</li>
-              <li>DevOps: Docker, CI/CD, Git, GitHub Actions</li>
-              <li>AI/ML Integration: TensorFlow, Python, Machine Learning APIs</li>
-              <li>System Design and Architecture</li>
+              <li>Database: MongoDB, PostgreSQL, MySQL</li>
+              <li>Mobile Development: React Native, Flutter</li>
+              <li>Tools: Git, GitHub, Firebase, Vercel</li>
             </ul>
-            <h3>Rameshwar Bhagwat - Professional Experience</h3>
+            <h3>Education</h3>
             <p>
-              Rameshwar Bhagwat has 5+ years of professional experience in web development, having worked on 50+ projects 
-              with 15+ happy clients. Achieved a 98% success rate in project delivery. Notable projects by Rameshwar Bhagwat 
-              include Devory (AI-powered SaaS platform) and ThinkVerse (collaborative platform).
+              B.Tech IT student at AISSMS Institute of Information Technology, Pune.
+              Continuously learning through projects, open source, and modern development tools.
             </p>
-            <h3>Achievements</h3>
-            <ul>
-              <li>Built scalable web applications serving thousands of users</li>
-              <li>Contributed to open-source projects</li>
-              <li>Technical blog writer sharing knowledge with the developer community</li>
-              <li>Mentored junior developers</li>
-            </ul>
-            <h3>Education and Continuous Learning</h3>
-            <p>
-              Rameshwar Bhagwat has an IT Engineering background with continuous skill development through online certifications, 
-              courses, and active participation in the tech community.
-            </p>
-            <h3>Contact Rameshwar Bhagwat</h3>
+            <h3>Contact Shriya Sandesh Kulkarni</h3>
             <address>
-              <p>Location: Yeola, Maharashtra, India</p>
-              <p>Email: rameshwarbhagwat019@gmail.com</p>
-              <p>Phone: +91 9699245170</p>
-              <p>Rameshwar Bhagwat is open to remote opportunities worldwide</p>
+              <p>Location: Pune, Maharashtra, India</p>
+              <p>Email: shriya25.main@gmail.com</p>
             </address>
           </div>
 
