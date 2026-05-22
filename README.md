@@ -1,4 +1,4 @@
-# Shriya Sandesh Kulkarni — Portfolio
+# Shriya Kulkarni — Portfolio
 
 A personal portfolio website built with Next.js, showcasing projects, skills, and experience as a Full Stack Developer.
 
