@@ -6,12 +6,6 @@ A personal portfolio website built with Next.js, showcasing projects, skills, an
 
 ---
 
-## Preview
-
-![Portfolio Preview](./public/og-image.png)
-
----
-
 ## About
 
 This is my personal developer portfolio — built to present my projects, technical skills, and background in a clean, modern format. Designed to be fast, responsive, and easy to navigate across all devices.
